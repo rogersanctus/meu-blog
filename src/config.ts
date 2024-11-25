@@ -1,20 +1,19 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://astro-paper.pages.dev/", // replace this with your deployed domain
-  author: "Sat Naing",
-  profile: "https://satnaing.dev/",
-  desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
+  website: "https://blog.rogerioferreira.me/", // replace this with your deployed domain
+  author: "Rogério Ferreira",
+  profile: "https://rogerioferreira.me/",
+  desc: "Blog pessoal com conteúdos sobre aprendizados e experiências em programação, Linux, SBCs, outras coisas de tecnologias embarcadas e não embarcadas e outros assuntos de meu interesse.",
   title: "Rogério Ferreira",
-  ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerIndex: 4,
   postPerPage: 3,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
   showArchives: true,
   editPost: {
-    url: "https://github.com/satnaing/astro-paper/edit/main/src/content/blog",
-    text: "Suggest Changes",
+    url: "https://github.com/rogersanctus/meu-blog/edit/main/src/content/blog",
+    text: "Sugerir mudanças",
     appendFilePath: true,
   },
 };
@@ -34,7 +33,7 @@ export const LOGO_IMAGE = {
 export const SOCIALS: SocialObjects = [
   {
     name: "Github",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://github.com/rogersanctus",
     linkTitle: ` ${SITE.title} on Github`,
     active: true,
   },
@@ -42,31 +41,31 @@ export const SOCIALS: SocialObjects = [
     name: "Facebook",
     href: "https://github.com/satnaing/astro-paper",
     linkTitle: `${SITE.title} on Facebook`,
-    active: true,
+    active: false,
   },
   {
     name: "Instagram",
     href: "https://github.com/satnaing/astro-paper",
     linkTitle: `${SITE.title} on Instagram`,
-    active: true,
+    active: false,
   },
   {
     name: "LinkedIn",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://www.linkedin.com/in/rogersanctus",
     linkTitle: `${SITE.title} on LinkedIn`,
     active: true,
   },
   {
     name: "Mail",
-    href: "mailto:yourmail@gmail.com",
+    href: "mailto:rogersanctus@gmail.com",
     linkTitle: `Send an email to ${SITE.title}`,
-    active: false,
+    active: true,
   },
   {
     name: "X",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://x.com/rogersanctus",
     linkTitle: `${SITE.title} on X`,
-    active: false,
+    active: true,
   },
   {
     name: "Twitch",
@@ -76,9 +75,9 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "YouTube",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://youtube.com/@rogersanctos",
     linkTitle: `${SITE.title} on YouTube`,
-    active: false,
+    active: true,
   },
   {
     name: "WhatsApp",
