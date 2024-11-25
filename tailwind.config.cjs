@@ -12,12 +12,6 @@ module.exports = {
   darkMode: ["selector", "[data-theme='dark']"],
   content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
   theme: {
-    // Remove the following screen breakpoint or add other breakpoints
-    // if one breakpoint is not enough for you
-    screens: {
-      sm: "640px",
-    },
-
     extend: {
       textColor: {
         skin: {
@@ -59,8 +53,10 @@ module.exports = {
           accent: withOpacity("--color-accent")
         }
       },
+
       fontFamily: {
-        mono: ["IBM Plex Mono", "monospace"],
+        sans: ['Libre Baskerville', 'sans-serif'],
+        mono: ['Sono', 'monospace']
       },
 
       typography: {

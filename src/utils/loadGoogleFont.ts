@@ -45,16 +45,52 @@ async function loadGoogleFonts(
 > {
   const fontsConfig = [
     {
-      name: "IBM Plex Mono",
-      font: "IBM+Plex+Mono",
+      name: "Libre Baskerville",
+      font: "Libre+Baskerville",
       weight: 400,
       style: "normal",
     },
     {
-      name: "IBM Plex Mono",
-      font: "IBM+Plex+Mono:wght@700",
+      name: "Libre Baskerville",
+      font: "Libre+Baskerville",
+      weight: 400,
+      style: "italic",
+    },
+    {
+      name: "Libre Baskerville",
+      font: "Libre+Baskerville",
       weight: 700,
-      style: "bold",
+      style: "normal",
+    },
+    {
+      name: "Libre Baskerville",
+      font: "Libre+Baskerville",
+      weight: 700,
+      style: "italic",
+    },
+    {
+      name: "Sono",
+      font: "Sono",
+      weight: 400,
+      style: "normal",
+    },
+    {
+      name: "Sono",
+      font: "Sono",
+      weight: 400,
+      style: "italic",
+    },
+    {
+      name: "Sono",
+      font: "Sono",
+      weight: 700,
+      style: "normal",
+    },
+    {
+      name: "Sono",
+      font: "Sono",
+      weight: 700,
+      style: "italic",
     },
   ];
 
