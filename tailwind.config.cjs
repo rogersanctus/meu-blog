@@ -55,7 +55,7 @@ module.exports = {
       },
 
       fontFamily: {
-        sans: ['Libre Baskerville', 'sans-serif'],
+        serif: ['Libre Baskerville', 'serif'],
         mono: ['Sono', 'monospace']
       },
 
