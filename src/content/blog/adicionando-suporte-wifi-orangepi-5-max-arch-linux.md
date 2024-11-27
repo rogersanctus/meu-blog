@@ -1,7 +1,7 @@
 ---
 author: Rogério Ferreira
 pubDatetime: 2024-11-24T20:21:00Z
-modDatetime: 2024-11-24T20:21:00Z
+# modDatetime: 2024-11-24T20:21:00Z
 title: Adicionando Suporte para o Adaptador Wifi da Orange Pi 5 Max ao Arch Linux
 slug: adicionando-suporte-wifi-orangepi-5-max-arch-linux
 featured: true
