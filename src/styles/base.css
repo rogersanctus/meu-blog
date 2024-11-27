@@ -54,10 +54,13 @@
   }
 
   .prose {
-    @apply prose-h2:!text-skin-dark-accent prose-headings:!mb-5 prose-headings:!text-skin-base prose-h3:not-italic;
-    @apply prose-p:!text-skin-base prose-a:!text-skin-base;
-    @apply prose-a:!decoration-dashed prose-a:underline-offset-8;
-    @apply hover:prose-a:text-skin-accent prose-blockquote:!border-l-skin-accent/50 prose-blockquote:opacity-80 prose-figcaption:!text-skin-base prose-figcaption:opacity-70 prose-strong:!text-skin-base;
+    @apply prose-headings:!mb-6 prose-headings:!text-skin-base;
+    @apply prose-h2:!text-skin-dark-accent prose-h2:!text-3xl prose-h2:underline prose-h2:underline-offset-8;
+    @apply prose-h3:!mb-4 prose-h3:!font-extrabold prose-h3:not-italic;
+    @apply prose-h4:!mb-3 prose-h4:!font-bold prose-h4:!italic;
+    @apply prose-p:!my-5 prose-p:!text-skin-base;
+    @apply prose-a:!text-skin-base prose-a:!decoration-dashed prose-a:underline-offset-8 hover:prose-a:text-skin-accent;
+    @apply prose-blockquote:!border-l-skin-accent/50 prose-blockquote:opacity-80 prose-figcaption:!text-skin-base prose-figcaption:opacity-70 prose-strong:!text-skin-base;
     @apply prose-code:rounded prose-code:bg-skin-card/75 prose-code:p-1 prose-code:before:!content-none prose-code:after:!content-none;
     @apply prose-ol:!text-skin-base prose-ul:overflow-x-clip prose-ul:!text-skin-base prose-li:marker:!text-skin-accent;
     @apply prose-table:text-skin-base prose-th:border prose-th:border-skin-line prose-td:border prose-td:border-skin-line;
