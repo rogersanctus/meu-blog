@@ -63,7 +63,7 @@ Em seguida:
 
 ```sh
 echo "blacklist bcmdhd" | sudo tee "/etc/modprobe.d/bcmdhd.conf"
-echo "blacklist dhd_static_buf" | sudo tee "/etc/modprobe.d/bcmdhd.conf"
+echo "blacklist dhd_static_buf" | sudo tee -a "/etc/modprobe.d/bcmdhd.conf"
 ```
 
 ### Instalando DKMS e headers do Kernel
