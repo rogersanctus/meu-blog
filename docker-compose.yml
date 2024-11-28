@@ -1,11 +1,6 @@
-version: '3'
-
 services:
-  app:
-    image: node:20
+  meu-blog-app:
+    image: meu-blog
+    build: .
     ports:
-      - 4321:4321
-    working_dir: /app
-    command: npm run dev -- --host 0.0.0.0
-    volumes:
-      - ./:/app
+      - "5001:80"
